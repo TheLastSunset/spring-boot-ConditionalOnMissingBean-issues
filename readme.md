@@ -41,6 +41,6 @@ BeanDefinition）
 
 ## 自定义 ApplicationContextInitializer，BeanDefinitionRegistryPostProcessor
 
-有效，满足需求。
+有效，满足需求。  
 在 BeanDefinitionRegistryPostProcessor 中手动注册自定义配置类，并在自定义配置类添加 @Order 以影响 spring 扫描类的条件的顺序，从而实现更先扫描到类及加载
 BeanDefinition 的顺序
